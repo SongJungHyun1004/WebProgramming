@@ -3,3 +3,37 @@
   padding:0;
   box-sizing: border-box;
 }
+#container {
+  width: 1200px;
+  margin: 20px auto;
+}
+
+#header {
+  height: 120px;
+  width: 100%;
+  background-color: yellow;
+}
+#sidebar-left {
+  width: 250px;
+  height: 600px;
+  background-color: green;
+  float: left;
+}
+#contents {
+  width: 800px;
+  height: 600px;
+  background-color: blueviolet;
+  float: left;
+}
+#sidebar-right {
+  width: 150px;
+  height: 600px;
+  background-color: green;
+  float: left;
+}
+#footer {
+  width: 1200px;
+  height: 100px;
+  background-color: beige;
+  clear: left;
+}
